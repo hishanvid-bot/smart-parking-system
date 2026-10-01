@@ -1,0 +1,26 @@
+{
+  "_note": "SAMPLE DATA for learning and demos. Lot names, prices and availability are simulated, not real.",
+  "destinations": {
+    "Phoenix Marketcity": {"lat": 12.9908, "lon": 80.2185},
+    "T Nagar":            {"lat": 13.0418, "lon": 80.2341},
+    "Marina Beach":       {"lat": 13.0500, "lon": 80.2824}
+  },
+  "lots": [
+    {"name": "Sample Lot A - Mall Basement",    "lat": 12.9912, "lon": 80.2190, "price_per_hr": 60,  "total_spaces": 400, "free_spaces": 35,  "traffic": 8, "security": 5, "hours": "10:00-23:00"},
+    {"name": "Sample Lot B - Metro Parking",    "lat": 12.9890, "lon": 80.2210, "price_per_hr": 30,  "total_spaces": 250, "free_spaces": 120, "traffic": 5, "security": 3, "hours": "05:00-23:00"},
+    {"name": "Sample Lot C - Street-side Plot", "lat": 12.9935, "lon": 80.2160, "price_per_hr": 20,  "total_spaces": 80,  "free_spaces": 40,  "traffic": 4, "security": 2, "hours": "24x7"},
+    {"name": "Sample Lot D - Tech Park Annex",  "lat": 12.9860, "lon": 80.2250, "price_per_hr": 40,  "total_spaces": 300, "free_spaces": 210, "traffic": 3, "security": 4, "hours": "06:00-22:00"},
+    {"name": "Sample Lot E - Premium Valet",    "lat": 12.9915, "lon": 80.2175, "price_per_hr": 100, "total_spaces": 120, "free_spaces": 60,  "traffic": 6, "security": 5, "hours": "09:00-24:00"},
+    {"name": "Sample Lot F - Open Ground",      "lat": 12.9810, "lon": 80.2300, "price_per_hr": 15,  "total_spaces": 500, "free_spaces": 300, "traffic": 2, "security": 2, "hours": "24x7"},
+
+    {"name": "Sample Lot G - Shopping Street",  "lat": 13.0430, "lon": 80.2330, "price_per_hr": 50,  "total_spaces": 150, "free_spaces": 10,  "traffic": 9, "security": 4, "hours": "08:00-22:00"},
+    {"name": "Sample Lot H - Residential Plot", "lat": 13.0400, "lon": 80.2360, "price_per_hr": 25,  "total_spaces": 90,  "free_spaces": 50,  "traffic": 5, "security": 3, "hours": "24x7"},
+    {"name": "Sample Lot I - Multi-level Park", "lat": 13.0450, "lon": 80.2310, "price_per_hr": 45,  "total_spaces": 350, "free_spaces": 140, "traffic": 6, "security": 5, "hours": "06:00-24:00"},
+    {"name": "Sample Lot J - Open Corner",      "lat": 13.0385, "lon": 80.2325, "price_per_hr": 20,  "total_spaces": 60,  "free_spaces": 0,   "traffic": 7, "security": 2, "hours": "24x7"},
+
+    {"name": "Sample Lot K - Beachfront Lot",   "lat": 13.0490, "lon": 80.2810, "price_per_hr": 30,  "total_spaces": 200, "free_spaces": 80,  "traffic": 7, "security": 3, "hours": "05:00-22:00"},
+    {"name": "Sample Lot L - Promenade Park",   "lat": 13.0520, "lon": 80.2800, "price_per_hr": 20,  "total_spaces": 180, "free_spaces": 90,  "traffic": 4, "security": 2, "hours": "24x7"},
+    {"name": "Sample Lot M - Guarded Compound", "lat": 13.0470, "lon": 80.2840, "price_per_hr": 70,  "total_spaces": 100, "free_spaces": 45,  "traffic": 3, "security": 5, "hours": "06:00-23:00"},
+    {"name": "Sample Lot N - Inland Ground",    "lat": 13.0545, "lon": 80.2790, "price_per_hr": 15,  "total_spaces": 400, "free_spaces": 250, "traffic": 2, "security": 3, "hours": "24x7"}
+  ]
+}

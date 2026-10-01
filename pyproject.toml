@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-parking-finder"
+version = "1.0.0"
+description = "Find nearby parking lots and get a preference-based recommendation, in the terminal."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+parking = "parking.__main__:main"
+
+[tool.setuptools]
+packages = ["parking"]
+
+[tool.setuptools.package-data]
+parking = ["lots.json"]
